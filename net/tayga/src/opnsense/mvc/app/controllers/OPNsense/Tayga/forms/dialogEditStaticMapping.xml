@@ -1,0 +1,20 @@
+<form>
+    <field>
+        <id>staticmapping.enabled</id>
+        <label>Enabled</label>
+        <type>checkbox</type>
+        <help>This will enable or disable the static mapping</help>
+    </field>
+    <field>
+        <id>staticmapping.v4</id>
+        <label>IPv4 network or address</label>
+        <type>text</type>
+        <help>IPv4 network to map. Can overlap with dynamic pool.</help>
+    </field>
+    <field>
+        <id>staticmapping.v6</id>
+        <label>IPv6 network</label>
+        <type>text</type>
+        <help>IPv4 network to map. Must not overlap with NAT64 prefix.</help>
+    </field>
+</form>
