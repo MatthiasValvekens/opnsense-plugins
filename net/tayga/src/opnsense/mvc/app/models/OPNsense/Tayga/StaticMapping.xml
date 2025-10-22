@@ -17,6 +17,7 @@
                     <Required>Y</Required>
                     <AddressFamily>ipv6</AddressFamily>
                 </v6>
+                <description type="DescriptionField"/>
             </staticmapping>
         </staticmappings>
     </items>
